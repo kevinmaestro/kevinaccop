@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Astuces pour nettoyer votre système et libérer de l'espace facilement.">
+    <title>Nettoyer un Système</title>
+    <link rel="stylesheet" href="nets.css">
+</head>
+<body>
+
+    <header>
+        <h1>Nettoyer un Système</h1>
+    </header>
+
+    <div class="container">
+        <p class="intro">
+            Un ordinateur propre est un ordinateur plus rapide ! Découvrez nos astuces pour **libérer de l’espace**,  
+            supprimer les fichiers inutiles et optimiser votre système facilement.
+        </p>
+
+        <h2>1. Introduction</h2>
+        <p>Avec le temps, les fichiers temporaires, logiciels inutilisés et caches s’accumulent sur votre PC ou Mac,  
+           ce qui peut ralentir votre système. Un bon nettoyage régulier permet d’optimiser votre machine et d’éviter  
+           les problèmes de performance.</p>
+
+        <h2>2. Pourquoi nettoyer son système ?</h2>
+        <ul>
+            <li>Libérer **de l’espace disque**.</li>
+            <li>Améliorer **les performances** du PC.</li>
+            <li>Supprimer les **fichiers inutiles** qui ralentissent le système.</li>
+            <li>Réduire les **temps de démarrage**.</li>
+        </ul>
+
+        <h2>3. Supprimer les fichiers inutiles et temporaires</h2>
+        <ul>
+            <li><strong>Windows :</strong> Ouvrez "Exécuter" (`Win + R`), tapez `cleanmgr` et sélectionnez le disque à nettoyer.</li>
+            <li><strong>Mac :</strong> Utilisez l’outil **"Gestion du stockage"** dans les **Préférences système**.</li>
+            <li><strong>Linux :</strong> Utilisez la commande :
+                <pre>sudo apt autoremove && sudo apt autoclean</pre>
+            </li>
+        </ul>
+
+        <h2>4. Désinstaller les logiciels inutilisés</h2>
+        <ul>
+            <li>Sur **Windows**, allez dans **Paramètres > Applications** et désinstallez les logiciels inutiles.</li>
+            <li>Sur **Mac**, supprimez les applications via **Finder > Applications**.</li>
+            <li>Sur **Linux**, utilisez la commande :
+                <pre>sudo apt remove nom_du_logiciel</pre>
+            </li>
+        </ul>
+
+        <h2>5. Nettoyer et optimiser le démarrage du système</h2>
+        <ul>
+            <li>Sur **Windows**, ouvrez le **Gestionnaire des tâches** (`Ctrl + Maj + Échap`) et désactivez les applications inutiles au démarrage.</li>
+            <li>Sur **Mac**, gérez les applications de démarrage dans **Préférences Système > Utilisateurs et groupes**.</li>
+            <li>Sur **Linux**, utilisez la commande :
+                <pre>systemctl disable nom_du_service</pre>
+            </li>
+        </ul>
+
+        <h2>6. Vérifier l’espace disque et organiser ses fichiers</h2>
+        <p>Un disque bien organisé permet un accès plus rapide aux fichiers et un système plus fluide :</p>
+        <ul>
+            <li>Utilisez **WinDirStat (Windows)** ou **Baobab (Linux)** pour visualiser l’espace disque utilisé.</li>
+            <li>Supprimez les **fichiers en double** avec **dupeGuru**.</li>
+        </ul>
+
+        <h2>7. Nettoyer et optimiser le registre (Windows)</h2>
+        <p>Le registre Windows stocke les paramètres système. Un nettoyage peut améliorer la réactivité :</p>
+        <ul>
+            <li>Utilisez **CCleaner** pour un nettoyage sécurisé.</li>
+            <li>Supprimez les clés de registre obsolètes manuellement via `regedit` (pour utilisateurs avancés).</li>
+        </ul>
+
+        <h2>8. Nettoyage avancé sous Linux et macOS</h2>
+        <ul>
+            <li>Sur Linux, utilisez **BleachBit** pour supprimer les fichiers inutiles.</li>
+            <li>Sur macOS, utilisez `sudo purge` pour libérer de la RAM.</li>
+        </ul>
+
+        <h2>9. Automatiser le nettoyage du système</h2>
+        <ul>
+            <li>Sur Windows, utilisez **Planificateur de tâches** pour exécuter `cleanmgr` automatiquement.</li>
+            <li>Sur Linux, planifiez une tâche cron pour `apt autoremove` chaque semaine.</li>
+        </ul>
+
+        <h2>10. Conclusion</h2>
+        <p>Un nettoyage régulier de votre ordinateur permet d’assurer **fluidité, rapidité et stabilité**.  
+           Adoptez ces bonnes pratiques pour un PC toujours performant !</p>
+    </div>
+
+    <div class="buttons">
+        <button onclick="history.back()">← Retour à la page précédente</button>
+        <a href="blog.html" class="btn">Autres articles →</a>
+    </div>
+
+</body>
+</html>

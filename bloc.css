@@ -1,0 +1,159 @@
+/* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-image: url(Informatique\ \(2\).jfif);
+    background-attachment: fixed;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #007BFF; /* Titres en bleu */
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007BFF; /* Liens en bleu */
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #0056b3; /* Changement de couleur au survol */
+  }
+  
+  /* Header */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  header nav a {
+    color: white;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  header nav a:hover {
+    color: #007BFF; /* Changement de couleur au survol */
+  }
+  
+  /* Section Blog */
+  .blog {
+    padding: 50px 20px;
+    text-align: center;
+   
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #007BFF; /* Titre en bleu */
+  }
+  
+  .blog .intro {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #666; /* Texte en gris */
+  }
+  
+  /* Liste des sujets */
+  .topic-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espace entre les cartes */
+    justify-content: center;
+  }
+  
+  .topic-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: calc(33.333% - 20px); /* 3 cartes par ligne */
+  }
+  
+  .topic-card:hover {
+    transform: translateY(-5px); /* Effet de survol */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .topic-card h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333; /* Titre des cartes en noir */
+  }
+  
+  .topic-card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666; /* Texte en gris */
+  }
+  
+  .cta-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3; /* Changement de couleur au survol */
+  }
+  
+  /* Call-to-action */
+  .cta {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .cta p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333; /* Texte en noir */
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .topic-card {
+      width: calc(50% - 20px); /* 2 cartes par ligne sur tablette */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .topic-card {
+      width: 100%; /* 1 carte par ligne sur mobile */
+    }
+  }

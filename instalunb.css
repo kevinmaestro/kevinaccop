@@ -1,0 +1,57 @@
+/* Styles généraux */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête */
+header {
+    background: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* Conteneur principal */
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles spécifiques */
+h1, h2 {
+    color: #E95420;
+}
+
+.intro {
+    background: #fff5f0;
+    padding: 15px;
+    border-left: 5px solid #E95420;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Boutons */
+.buttons {
+    text-align: center;
+    margin: 30px 0;
+}
+
+button, .btn {
+    background: #E95420;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

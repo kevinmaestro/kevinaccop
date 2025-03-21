@@ -1,0 +1,57 @@
+/* Styles généraux */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1C1F26;
+    color: #E0E0E0;
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête */
+header {
+    background: #0A74DA;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* Conteneur */
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+    background: #2A2E37;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+}
+
+/* Introduction */
+.intro {
+    background: #0A74DA;
+    padding: 15px;
+    border-left: 5px solid #1A9BFF;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Boutons */
+.buttons {
+    text-align: center;
+    margin: 30px 0;
+}
+
+button, .btn {
+    background: #1A9BFF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button:hover, .btn:hover {
+    background: #0073CC;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guide complet et détaillé pour installer Ubuntu sur votre ordinateur.">
+    <title>Installer Ubuntu - Guide complet</title>
+    <link rel="stylesheet" href="instalunb.css">
+</head>
+<body>
+
+    <header>
+        <h1>Installer Ubuntu : Guide Complet</h1>
+    </header>
+
+    <div class="container">
+        <p class="intro">
+            Découvrez comment installer Ubuntu, un système d'exploitation open-source rapide, sécurisé et facile à utiliser.  
+            Que vous souhaitiez l'essayer ou en faire votre système principal, suivez ce guide détaillé pour une installation réussie !
+        </p>
+
+        <h2>1. Introduction</h2>
+        <p>Ubuntu est un système d’exploitation basé sur Linux, reconnu pour sa **stabilité, sa sécurité et sa simplicité d’utilisation**.  
+           Il est **gratuit**, mis à jour régulièrement et compatible avec la plupart des ordinateurs.</p>
+
+        <h2>2. Pourquoi choisir Ubuntu ?</h2>
+        <ul>
+            <li>**Gratuit** et open-source.</li>
+            <li>**Sécurisé** (pas besoin d’antivirus).</li>
+            <li>**Léger** et performant, idéal pour les PC anciens.</li>
+            <li>Grand choix de **logiciels gratuits**.</li>
+        </ul>
+
+        <h2>3. Préparation avant l'installation</h2>
+        <p>Avant de commencer, voici ce dont vous aurez besoin :</p>
+        <ul>
+            <li>Une clé USB d’au moins **4 Go**.</li>
+            <li>Le fichier **ISO d’Ubuntu** (<a href="https://ubuntu.com/download" target="_blank">Téléchargez-le ici</a>).</li>
+            <li>Un programme pour créer une clé USB bootable (**Rufus** sous Windows ou **Etcher** sous Linux/Mac).</li>
+            <li>Une sauvegarde de vos fichiers importants.</li>
+        </ul>
+
+        <h2>4. Création d'une clé USB bootable</h2>
+        <ol>
+            <li>Insérez votre **clé USB** dans votre ordinateur.</li>
+            <li>Téléchargez et ouvrez <a href="https://rufus.ie/" target="_blank">Rufus</a> (ou **Etcher** pour Linux/Mac).</li>
+            <li>Sélectionnez votre **clé USB**, puis l’ISO d’Ubuntu.</li>
+            <li>Cliquez sur **Démarrer** et attendez que la clé soit prête.</li>
+        </ol>
+
+        <h2>5. Configuration du BIOS/UEFI</h2>
+        <p>Redémarrez votre PC et accédez au BIOS en appuyant sur <strong>F2, F12, DEL ou ESC</strong>.  
+           Dans le BIOS, **modifiez l’ordre de démarrage** pour mettre la clé USB en premier.</p>
+
+        <h2>6. Installation d'Ubuntu</h2>
+        <ol>
+            <li>Redémarrez votre PC et démarrez sur la **clé USB**.</li>
+            <li>Choisissez **"Essayer Ubuntu"** (option recommandée pour tester avant d’installer).</li>
+            <li>Si tout fonctionne, cliquez sur **"Installer Ubuntu"**.</li>
+            <li>Sélectionnez la **langue** et **la disposition du clavier**.</li>
+            <li>Choisissez le type d’installation :
+                <ul>
+                    <li><strong>Installation normale</strong> (recommandée).</li>
+                    <li><strong>Installation minimale</strong> (sans logiciels supplémentaires).</li>
+                </ul>
+            </li>
+            <li>Choisissez le type de partition :
+                <ul>
+                    <li><strong>Effacer le disque et installer Ubuntu</strong> (supprime tout, recommandé pour un PC dédié à Ubuntu).</li>
+                    <li><strong>Autre option</strong> (pour un dual-boot avec Windows).</li>
+                </ul>
+            </li>
+            <li>Sélectionnez votre **localisation** et créez votre **compte utilisateur**.</li>
+            <li>L’installation démarre, attendez quelques minutes puis redémarrez votre PC.</li>
+        </ol>
+
+        <h2>7. Configuration initiale</h2>
+        <ul>
+            <li>Connectez-vous avec le compte que vous avez créé.</li>
+            <li>Vérifiez la **connexion Internet**.</li>
+            <li>Activez les **mises à jour automatiques**.</li>
+        </ul>
+
+        <h2>8. Installation des logiciels essentiels</h2>
+        <ul>
+            <li>Ouvrez **Ubuntu Software** pour installer un navigateur (Firefox, Chrome, Brave…).</li>
+            <li>Installez **VLC, LibreOffice, GIMP, et d'autres outils essentiels**.</li>
+            <li>Mettez à jour votre système avec la commande :
+                <pre>sudo apt update && sudo apt upgrade -y</pre>
+            </li>
+        </ul>
+
+        <h2>9. Optimisation après installation</h2>
+        <ul>
+            <li>Activez les **dépôts de logiciels supplémentaires**.</li>
+            <li>Installez les **pilotes graphiques** si nécessaire.</li>
+            <li>Personnalisez l’interface avec **GNOME Tweaks**.</li>
+        </ul>
+
+        <h2>10. Conclusion</h2>
+        <p>Félicitations, Ubuntu est installé ! Profitez de ce système rapide, stable et sécurisé.  
+           Pensez à explorer les paramètres et à personnaliser votre expérience.</p>
+    </div>
+
+    <div class="buttons">
+        <button onclick="history.back()">← Retour à la page précédente</button>
+        <a href="blog.html" class="btn">Autres articles →</a>
+    </div>
+
+</body>
+</html>

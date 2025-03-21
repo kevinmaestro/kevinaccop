@@ -1,0 +1,142 @@
+/* Styles généraux */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+   background-color: black;
+  }
+  
+  h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Header */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header nav a {
+    color: white;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  header nav a:hover {
+    color: #007BFF; /* Changement de couleur au survol */
+  }
+  
+  /* Section Sécurité */
+  .securite {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff; /* Arrière-plan blanc */
+  }
+  
+  .securite h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #007BFF; /* Titre en bleu */
+  }
+  
+  .securite .intro {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #666; /* Texte en gris */
+  }
+  
+  .service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px; /* Espace entre les cartes */
+  }
+  
+  .service-item {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .service-item:hover {
+    transform: translateY(-10px); /* Effet de survol */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service-item i {
+    font-size: 40px;
+    color: #007BFF;
+    margin-bottom: 15px;
+  }
+  
+  .service-item h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333; /* Titre des services en noir */
+  }
+  
+  .service-item ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .service-item li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #666; /* Texte en gris */
+  }
+  
+  /* Call-to-action */
+  .cta {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .cta p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333; /* Texte en noir */
+  }
+  
+  .cta-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3; /* Changement de couleur au survol */
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
